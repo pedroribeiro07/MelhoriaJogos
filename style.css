@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #1e2a47;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+.pacotes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 90px 20px;
+}
+
+.pacote {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+}
+
+.pacote img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.pacote h2 {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+.pacote p {
+    font-size: 2em;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #1e2a47;
+    color: white;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+
+a {
+    display: inline-block;        
+    padding: 10px 20px;           
+    background-color: rgb(206, 137, 70);
+    color: white;                  
+    text-decoration: none;        
+    border-radius: 5px;          
+    font-size: 1.5em;               
+    text-align: center;            
+    transition: background-color 0.3s ease; 
+}
+
+a:hover {
+    background-color: rgb(23, 65, 23);
+}
+#pacote-prata a {
+    display: inline-block;        
+    padding: 10px 20px;           
+    background-color: grey;
+    color: white;                  
+    text-decoration: none;        
+    border-radius: 5px;          
+    font-size: 1.5em;               
+    text-align: center;            
+    transition: background-color 0.3s ease; 
+}
+
+#pacote-ouro a{
+    display: inline-block;        
+    padding: 10px 20px;           
+    background-color: rgb(134, 134, 26); 
+    color: white;                  
+    text-decoration: none;        
+    border-radius: 5px;          
+    font-size: 1.5em;               
+    text-align: center;            
+}
+
+#parte b{
+    font-size: 2.5em;
+    padding: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: block;
+    margin-bottom: 10px; 
+}
+
+#parte img {
+    display: block; 
+    margin: 40px auto;
+    height: 400px;         
+    width: 400px;          
+    object-fit: cover;  
+    border-radius: 15px;   
+
+}
+
+#parte p{
+    font-size: 2.5em;
+    padding: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: block;
+    margin-bottom: 10px; 
+    background-color: #1e2a47;
+    border-radius: 15px;  
+
+}
+

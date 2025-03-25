@@ -15,6 +15,49 @@ header {
     background-color: #1e2a47;
     color: white;
     padding: 20px;
+    display: flex;
+    flex-direction: row; /* Coloca a imagem ao lado do texto */
+    align-items: center; /* Alinha o conteúdo verticalmente */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    gap: 20px; /* Espaço entre a imagem e o texto */
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%; /* Faz a imagem ficar redonda, se desejado */
+}
+
+header div {
+    text-align: left; /* Para garantir que o texto fique alinhado à esquerda */
+}
+header a{
+    font-weight: bold ;
+    display: flex;                 
+    color: white;                              
+    font-size: 1.0em; 
+    font-family: Arial, Helvetica, sans-serif; 
+    text-decoration: none; 
+             
+}
+header a:hover {
+   color: red;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em; /* Ajusta o tamanho da fonte do parágrafo */
+    color: #ccc; /* Cor do parágrafo */
+}
+
+
+header b{
+
 }
 
 h1 {
@@ -67,7 +110,7 @@ footer {
     margin-top: 30px;
 }
 
-a {
+#pacote-bronze a  {
     display: inline-block;        
     padding: 10px 20px;           
     background-color: rgb(206, 137, 70);
@@ -79,7 +122,7 @@ a {
     transition: background-color 0.3s ease; 
 }
 
-a:hover {
+#pacote-bronze a:hover {
     background-color: rgb(23, 65, 23);
 }
 #pacote-prata a {

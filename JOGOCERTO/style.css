@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #000000, #ffffff); /* Degradê de preto para branco */
+    color: #000000; /* Texto em preto escuro */
+    text-align: center;
+    animation: fadeIn 3s ease-in-out;
+}
+
+/* Animação de fade-in */
+@keyframes fadeIn {
+    0% {
+        opacity: 0; /* Começa invisível */
+    }
+    100% {
+        opacity: 1; /* Fica visível */
+    }
+}
+
+header {
+    background-color: #1e2a47;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row; /* Coloca a imagem ao lado do texto */
+    align-items: center; /* Alinha o conteúdo verticalmente */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    gap: 20px; /* Espaço entre a imagem e o texto */
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%; /* Faz a imagem ficar redonda, se desejado */
+}
+
+header div {
+    text-align: left; /* Para garantir que o texto fique alinhado à esquerda */
+}
+
+header a {
+    font-weight: bold;
+    display: flex;
+    color: white;
+    font-size: 1.0em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: red;
+}
+
+header b {
+    color: white;
+}
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+header p {
+    font-size: 1.2em; /* Ajusta o tamanho da fonte do parágrafo */
+    color: #ccc; /* Cor do parágrafo */
+}
+
+.pacotes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 90px 20px;
+}
+
+.pacote {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+}
+
+.pacote img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.pacote h2 {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+.pacote p {
+    font-size: 2em;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #1e2a47;
+    color: white;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+
+#pacote-bronze a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(206, 137, 70);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.5em;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+#pacote-bronze a:hover {
+    background-color: rgb(23, 65, 23);
+}
+
+#pacote-prata a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.5em;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+#pacote-prata a:hover {
+    background-color: rgb(23, 65, 23);
+}
+
+#pacote-ouro a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(134, 134, 26);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#pacote-ouro a:hover {
+    background-color: rgb(23, 65, 23);
+}
+
+#parte b {
+    font-size: 2.5em;
+    padding: 20px;
+    color: black; /* Texto em preto para a parte b */
+    font-family: Arial, sans-serif;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#parte img {
+    display: block;
+    margin: 40px auto;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+#parte p {
+    font-size: 2.5em;
+    padding: 20px;
+    color: white; /* Texto em preto para a parte p */
+    font-family: Arial, sans-serif;
+    display: block;
+    margin-bottom: 10px;
+    background-color: #1e2a47;
+    border-radius: 15px;
+}
